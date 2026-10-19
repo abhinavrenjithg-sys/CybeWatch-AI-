@@ -1,7 +1,9 @@
 # CybeWatch AI
 > **Detect threats. Understand attacks. Respond confidently.**
 
-[![CI Pipeline](https://github.com/cybewatch/cybewatch-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/cybewatch/cybewatch-ai/actions)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-06B6D4?style=for-the-badge&logo=github)](https://abhinavrenjithg-sys.github.io/CybeWatch-AI-/)
+
+[![CI Pipeline](https://github.com/abhinavrenjithg-sys/CybeWatch-AI-/actions/workflows/ci.yml/badge.svg)](https://github.com/abhinavrenjithg-sys/CybeWatch-AI-/actions)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.115+-009688.svg?logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com)
 [![React 19](https://img.shields.io/badge/React-19.3-61DAFB.svg?logo=react&logoColor=black)](https://react.dev)
 [![XGBoost](https://img.shields.io/badge/XGBoost-3.4-EB4034.svg)](https://xgboost.ai)
@@ -9,6 +11,9 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 **CybeWatch AI** is an enterprise-grade cybersecurity threat detection and investigation platform designed for defensive Security Operations Centers (SOC). It ingests high-volume network flow telemetry, classifies intrusions using trained machine learning models, generates explainable feature attributions, correlates events into multi-stage attack campaigns, and powers an evidence-grounded AI Incident Investigator.
+
+> 🌐 **Live Interactive Web Demo**: [https://abhinavrenjithg-sys.github.io/CybeWatch-AI-/](https://abhinavrenjithg-sys.github.io/CybeWatch-AI-/)
+
 
 ---
 
