@@ -73,6 +73,7 @@ def root():
     }
 
 
+@app.get("/health", tags=["Health"])
 @app.get(f"{settings.API_V1_STR}/health", tags=["Health"])
 def health_check(db: Session = Depends(get_db)):
     """Operational health check verifying database and ML engine status."""
@@ -84,6 +85,7 @@ def health_check(db: Session = Depends(get_db)):
         "active_model": engine.bundle.get("model_version") if engine.bundle else None,
         "environment": settings.ENVIRONMENT
     }
+
 
 
 # Include Routers under /api/v1
